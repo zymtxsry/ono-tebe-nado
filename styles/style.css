@@ -186,7 +186,6 @@
     list-style: none;
     width: 100%;
     margin-bottom: 30px;
-    
 }
 
 .lots__card-list-item {
@@ -320,9 +319,8 @@
   .footer {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px 94px 50px;
-    margin-top: 70px;
-    align-items: center;
+    padding: 70px 50px 94px 50px;
+    line-height: 24.3px;
   }
 
   .footer__menu-list {
