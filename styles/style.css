@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    padding: 92px 49px 96px 51px;
+    padding: 93px 49px 96px 51px;
 }
 
 .header_link-list {
@@ -17,7 +17,7 @@
     font-size: 18px;
     display: flex;
     flex-direction: row;
-    gap: 10px 33px;
+    gap: 10px 32px;
     align-items: center;
     list-style: circle;
     white-space: nowrap;
@@ -36,7 +36,7 @@
     justify-self: center;
     width: 148px;
     height: 105px;
-    margin-right: 70px;
+    margin-right: 80px;
 }
 
 .header_logo-image {
@@ -49,12 +49,14 @@
 }
 
 .address {
+    margin-right: 2px;
+    padding-top: 2px;
     max-width: 238px;
     font-style: normal;
     font-size: 18px;
-    line-height: 130%;
+    line-height: 140%;
     justify-self: end;
-    text-underline-offset: 5px; 
+    text-underline-offset: 5px;
 }
 
 /* Начало мейна*/
@@ -319,13 +321,14 @@
   .footer {
     display: flex;
     justify-content: space-between;
-    padding: 70px 50px 94px 50px;
+    padding: 83px 50px 94px 50px;
     line-height: 24.3px;
   }
 
   .footer__menu-list {
     list-style: none;
     text-align: center;
+    line-height: 145%;
   }
 
   .footer__menu-list-item {
@@ -347,5 +350,6 @@
     align-items: center;
     gap: 48px;
     list-style: none;
+    padding-bottom: 45px;
   }
 
