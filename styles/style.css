@@ -100,29 +100,20 @@
 
 .aligned-text {
     text-align: left;
+    display: block;
 
 }
 
 .aligned-text_center {
     text-align: center;
+    display: block;
 }
+
 
 .aligned-text_right {        
-    text-align: right;    
+    text-align: right;
+    display: block;    
 }
-
-.aligned-text {
-    display: block;
-}
-
-.aligned-text_center {
-    display: block;
-}
-
-.aligned-text_right {
-    display: block;
-}
-
 
 .letter-spacing-extended {
     letter-spacing: 60px;
